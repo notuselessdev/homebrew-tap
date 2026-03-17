@@ -1,26 +1,26 @@
 class GroveStreet < Formula
   desc "GTA San Andreas CJ voice notifications for AI coding agents"
   homepage "https://github.com/notuselessdev/grove-street"
-  version "0.3.3"
+  version "0.3.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/notuselessdev/grove-street/releases/download/v#{version}/grove-street_darwin_arm64.tar.gz"
-      sha256 "33fe0043c09fdadcb6ce4d08d296a0896e6c051cb5fe2bd12809eaa2261fa429"
+      sha256 "8671588c1adaed578f5a333b234bca544fb693957d249299bc03b33595578b76"
     else
       url "https://github.com/notuselessdev/grove-street/releases/download/v#{version}/grove-street_darwin_amd64.tar.gz"
-      sha256 "f319b49fb9acbb3096fd308e8205edb43d7d5740acaa611f3a37e6bf3ebd5783"
+      sha256 "2da5ef33cd1b1556fd892f03f23ba0d36635dabcada64edbc01eb4d9b9116487"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/notuselessdev/grove-street/releases/download/v#{version}/grove-street_linux_arm64.tar.gz"
-      sha256 "e4a16e4a198c485522e7d2474effc4097dd0815b27fe06c8db742856a697ac94"
+      sha256 "7cb0342a3b6651c9e01cb7e308b5f867863710ba19ae5de5c6b644f7efad752a"
     else
       url "https://github.com/notuselessdev/grove-street/releases/download/v#{version}/grove-street_linux_amd64.tar.gz"
-      sha256 "244f3620a8c864ff9a493185bf13d3d92ce2158f79b7b1df4e7006a9333c23a3"
+      sha256 "708f3e133c63fbd0c0d3d40f30945ae01e83c0927a893f29416f42248ddcc64b"
     end
   end
 
