@@ -1,4 +1,4 @@
-cask "hihi" do
+cask "hee-hee" do
   version "0.1.0"
   sha256 "c16d96210267044b0713ecc27efa8f4ac9fe88efaf014e7ac6082a8598870441"
 
