@@ -4,7 +4,7 @@ cask "cantio" do
 
   url "https://github.com/notuselessdev/cantio/releases/download/v#{version}/Cantio-#{version}.dmg"
   name "Cantio"
-  desc "Floating Spotify lyrics for the macOS menu bar"
+  desc "Floating Spotify lyrics for the menu bar"
   homepage "https://github.com/notuselessdev/cantio"
 
   # Unsigned (no Apple Developer ID). Install with --no-quarantine so
@@ -15,9 +15,9 @@ cask "cantio" do
   app "Cantio.app"
 
   zap trash: [
-    "~/Library/Preferences/com.mayronalves.cantio.plist",
     "~/Library/Application Support/com.mayronalves.cantio",
     "~/Library/Caches/com.mayronalves.cantio",
+    "~/Library/Preferences/com.mayronalves.cantio.plist",
   ]
 
   caveats <<~EOS
