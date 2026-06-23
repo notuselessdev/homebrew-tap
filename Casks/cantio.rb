@@ -10,7 +10,7 @@ cask "cantio" do
   # Unsigned (no Apple Developer ID). Install with --no-quarantine so
   # Gatekeeper doesn't block first launch.
   auto_updates false
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Cantio.app"
 
