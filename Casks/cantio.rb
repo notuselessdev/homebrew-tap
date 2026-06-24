@@ -1,6 +1,6 @@
 cask "cantio" do
-  version "0.1.0"
-  sha256 "5341f1590d695aa635b67be076615a22e70f5a6e470d9fcf48ea1b36d6b25fda"
+  version "1.0.0"
+  sha256 "adfdaee139c4ae8251feda832bc6f9bbb1140e7d7f96518a169377398348b372"
 
   url "https://github.com/notuselessdev/cantio/releases/download/v#{version}/Cantio-#{version}.dmg"
   name "Cantio"
